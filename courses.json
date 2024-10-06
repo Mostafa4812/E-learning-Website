@@ -1,0 +1,186 @@
+{
+    "categories": [
+        {
+            "name": "Web Development",
+            "image": "./images/web.jfif",
+            "description": "Learn the latest technologies and frameworks for building modern web applications.",
+            "courses": [
+                {
+                    "id": 1,
+                    "name": "HTML & CSS",
+                    "image": "./images/html.jfif",
+                    "description": "Master the basics of web development with HTML and CSS. Learn how to create beautiful and responsive websites.",
+                    "videos": [
+                        {
+                            "title": "Introduction to HTML",
+                            "type": "mp4",
+                            "url":"https://www.youtube.com/embed/6QAELgirvjs?si=z_lepNHZ2qbdUvh6"
+                        },
+                        {
+                            "title": "CSS Basics",
+                            "type": "mp4",
+                            "url": "https://www.youtube.com/embed/7LxA9qXUY5k?si=VJ7Nuj98IbsS-z9X"
+                        },
+                        {
+                            "title": "JavaScript Overview",
+                            "type": "mp4",
+                            "url": "https://www.youtube.com/embed/QG5aEmS9Fu0?si=HiepXOqHToECq-CZ"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "JavaScript Basics",
+                    "image": "./images/js.jfif",
+                    "description": "Get started with JavaScript, the most popular programming language for web development. Learn how to make your websites interactive.",
+                    "videos": [
+                        {
+                            "title": "Introduction to HTML",
+                            "type": "mp4",
+                            "url":"https://www.youtube.com/embed/6QAELgirvjs?si=z_lepNHZ2qbdUvh6"
+                        },
+                        {
+                            "title": "CSS Basics",
+                            "type": "mp4",
+                            "url": "https://www.youtube.com/embed/7LxA9qXUY5k?si=VJ7Nuj98IbsS-z9X"
+                        },
+                        {
+                            "title": "JavaScript Overview",
+                            "type": "mp4",
+                            "url": "https://www.youtube.com/embed/QG5aEmS9Fu0?si=HiepXOqHToECq-CZ"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "React.js Fundamentals",
+                    "image": "./images/react.jfif",
+                    "description": "Learn the fundamentals of React.js, a powerful JavaScript library for building user interfaces.",
+                   "videos": [
+                        {
+                            "title": "Introduction to HTML",
+                            "type": "mp4",
+                            "url":"https://www.youtube.com/embed/6QAELgirvjs?si=z_lepNHZ2qbdUvh6"
+                        },
+                        {
+                            "title": "CSS Basics",
+                            "type": "mp4",
+                            "url": "https://www.youtube.com/embed/7LxA9qXUY5k?si=VJ7Nuj98IbsS-z9X"
+                        },
+                        {
+                            "title": "JavaScript Overview",
+                            "type": "mp4",
+                            "url": "https://www.youtube.com/embed/QG5aEmS9Fu0?si=HiepXOqHToECq-CZ"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Data Science",
+            "image": "./images/data.jfif",
+            "description": "Dive into the world of data science. Learn how to analyze and visualize data using popular tools and techniques.",
+            "courses": [
+                {
+                    "id": 4,
+                    "name": "Python for Data Science",
+                    "image": "images/python.jfif",
+                    "description": "Learn Python, the most popular programming language for data science. Explore data manipulation and visualization techniques.",
+                   "videos": [
+                        {
+                            "title": "Introduction to HTML",
+                            "type": "mp4",
+                            "url":"https://www.youtube.com/embed/6QAELgirvjs?si=z_lepNHZ2qbdUvh6"
+                        },
+                        {
+                            "title": "CSS Basics",
+                            "type": "mp4",
+                            "url": "https://www.youtube.com/embed/7LxA9qXUY5k?si=VJ7Nuj98IbsS-z9X"
+                        },
+                        {
+                            "title": "JavaScript Overview",
+                            "type": "mp4",
+                            "url": "https://www.youtube.com/embed/QG5aEmS9Fu0?si=HiepXOqHToECq-CZ"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "name": "Machine Learning Basics",
+                    "image": "images/machine-learning.jfif",
+                    "description": "Get started with machine learning. Learn the basics of building predictive models using Python.",
+                   "videos": [
+                        {
+                            "title": "Introduction to HTML",
+                            "type": "mp4",
+                            "url":"https://www.youtube.com/embed/6QAELgirvjs?si=z_lepNHZ2qbdUvh6"
+                        },
+                        {
+                            "title": "CSS Basics",
+                            "type": "mp4",
+                            "url": "https://www.youtube.com/embed/7LxA9qXUY5k?si=VJ7Nuj98IbsS-z9X"
+                        },
+                        {
+                            "title": "JavaScript Overview",
+                            "type": "mp4",
+                            "url": "https://www.youtube.com/embed/QG5aEmS9Fu0?si=HiepXOqHToECq-CZ"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mobile Development",
+            "image": "images/mobile-development.jfif",
+            "description": "Learn how to develop mobile applications for iOS and Android using the latest technologies.",
+            "courses": [
+                {
+                    "id": 6,
+                    "name": "Android Development with Kotlin",
+                    "image": "images/android.jfif",
+                    "description": "Get started with Android development using Kotlin. Learn how to build native Android apps.",
+                   "videos": [
+                        {
+                            "title": "Introduction to HTML",
+                            "type": "mp4",
+                            "url":"https://www.youtube.com/embed/6QAELgirvjs?si=z_lepNHZ2qbdUvh6"
+                        },
+                        {
+                            "title": "CSS Basics",
+                            "type": "mp4",
+                            "url": "https://www.youtube.com/embed/7LxA9qXUY5k?si=VJ7Nuj98IbsS-z9X"
+                        },
+                        {
+                            "title": "JavaScript Overview",
+                            "type": "mp4",
+                            "url": "https://www.youtube.com/embed/QG5aEmS9Fu0?si=HiepXOqHToECq-CZ"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "name": "iOS Development with Swift",
+                    "image": "images/ios.jfif",
+                    "description": "Learn how to develop iOS applications using Swift, Apple's powerful programming language.",
+                    "videos": [
+                        {
+                            "title": "Introduction to HTML",
+                            "type": "mp4",
+                            "url":"https://www.youtube.com/embed/6QAELgirvjs?si=z_lepNHZ2qbdUvh6"
+                        },
+                        {
+                            "title": "CSS Basics",
+                            "type": "mp4",
+                            "url": "https://www.youtube.com/embed/7LxA9qXUY5k?si=VJ7Nuj98IbsS-z9X"
+                        },
+                        {
+                            "title": "JavaScript Overview",
+                            "type": "mp4",
+                            "url": "https://www.youtube.com/embed/QG5aEmS9Fu0?si=HiepXOqHToECq-CZ"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Videos</title>
+    <link rel="stylesheet" href="StyleCourseVideo.css">
+</head>
+<body>   
+    <button id="backBtn">Back</button>
+    <nav>
+        <h2 id="courseName"></h2>
+        <div class="user-info">
+            <img src="#" alt="User Photo" class="user-photo">
+            <span class="user-name">Mostafa Mahmoud</span>
+        </div>
+    </nav>
+    <div class="container">
+        <aside>
+            <!-- Video list will be dynamically generated here -->
+        </aside>
+        <section class="video-display">
+            <h3 id="videoTitle">Select a video to play</h3>
+            <div id="videoContainer">
+                <video id="videoPlayer" controls>
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="video-controls">
+                <button id="backVideoBtn">Back</button>
+                <button id="nextVideoBtn">Forward</button>
+            </div>
+        </section>
+    </div>
+    <script src="ScriptCourseVideos.js"></script>
+</body>
+</html>

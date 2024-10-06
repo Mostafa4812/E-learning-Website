@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+#backBtn{
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #0275d8;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.user-info {
+    display: flex;
+    margin-right: 40px;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-photo {
+    width: 30px;
+    height: 40px;
+    border-radius: 40%;
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    margin-top: 60px; /* Adjust this value based on the height of your nav */
+    height: calc(100vh - 60px); /* Adjust this value based on the height of your nav */
+}
+
+aside {
+    width: 25%;
+    padding: 20px;
+    background-color: #f1f1f1;
+    overflow-y: auto;
+}
+
+.video-display {
+    width: 60%;
+    padding: 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.video-display h3 {
+    margin-top: 0;
+}
+
+#videoContainer {
+    width: 100%;
+    max-height: 450px;
+    background-color: #000; /* Ensure visibility */
+    margin-bottom: 10px; /* Space between video and controls */
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.video-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.video-controls button {
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.video-item {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.video-item:hover {
+    background-color: #ccc;
+}
+.video-controls button:hover{
+    background-color: #ccc;
+}
+#backBtn:hover{
+    background-color: #ccc;
+
+}
